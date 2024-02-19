@@ -1,4 +1,4 @@
-function () {
+function siteImprove() {
     let b = window.location.href,
         c = window.location.pathname;
     if (b.includes("gov.uk")) location = "https://my2.siteimprove.com/QualityAssurance/1112165/Overview/Search?SearchIn=Url&Query=" + c.replace(/\//g, "%2F");
